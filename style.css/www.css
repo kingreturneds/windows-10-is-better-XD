@@ -7,6 +7,7 @@
 body{
     background-image:url(../img/desktop-wallpaper-windows-10-green-logo-green-abstract-background-minimalism-windows-10-logo-windows-10-minimalism-windows-10.jpg);
     background-size: 100% 100vh;
+    background-attachment: fixed;
     
     
 }
