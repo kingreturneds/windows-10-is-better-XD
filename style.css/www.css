@@ -44,16 +44,17 @@ div.one{
 
 }
 .one :hover {
-    background-color: rgb(142, 223, 176);
+    background-color: rgb(91, 221, 119);
     border-radius: 5px;
-    transform: scale(1.2);
+    transform: scale(1.1);
+    
 
 }
 .two{
     margin: 23% ;
     margin-top: 50px;
     border:2px solid black;
-    height:1000vh;
+    height:310vh;
     width:50%;
     box-shadow: 10px 15px rgb(18, 197, 33);
     background-color: #93eb9b;
@@ -69,6 +70,8 @@ div.two h1{
 }
 div.two li{
     margin-left:2%;
+
+
 }
 div.two h2{
     margin-left:2%;
