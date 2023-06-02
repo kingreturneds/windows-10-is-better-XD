@@ -18,9 +18,10 @@ div.one{
     overflow: hidden;
     width: 100%;
     background-color:rgb(127, 226, 14);
-    animation: wuw 12s ease alternate;
+    /*animation: wuw 12s ease alternate;*/
     
 }
+/*
 @keyframes wuw {
     0%{
         background-position:0,50% ;
@@ -29,6 +30,7 @@ div.one{
         background-position:0, 100%s;
     }
 }
+*/
 .one a{
     display: block;
     text-align: center;
@@ -55,7 +57,7 @@ div.one{
     width:50%;
     box-shadow: 10px 15px rgb(18, 197, 33);
     background-color: #93eb9b;
-    
+   
 
 }
 
@@ -63,6 +65,7 @@ div.two h1{
     margin-bottom: 25px;
     text-shadow: 2px 2px green;
     margin-left: 2%;
+    margin-top: 2%;
 }
 div.two li{
     margin-left:2%;
@@ -71,4 +74,36 @@ div.two h2{
     margin-left:2%;
 }
 
+.trii h2{
+    display:flex;
 
+}
+.triie{
+  display:grid;
+  grid-auto-flow: column;
+  margin:2%;
+
+
+}
+
+.btm{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 50px ;
+    
+    
+}
+.btm button a{
+    padding: 25px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+@media(min-width: 55em){
+    .column{
+        grid-auto-flow: column;
+    } 
+    
+}
