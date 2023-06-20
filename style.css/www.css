@@ -3,13 +3,17 @@
     margin: 0%;
     box-sizing: border-box;
     
+    
 }
 body{
     background-image:url(../img/desktop-wallpaper-windows-10-green-logo-green-abstract-background-minimalism-windows-10-logo-windows-10-minimalism-windows-10.jpg);
     background-size: 100% 100vh;
     background-attachment: fixed;
+   
     
-    
+}
+html{
+    scroll-behavior: smooth;
 }
 div.one{ 
     padding: 10px;
@@ -40,6 +44,7 @@ div.one{
     color:#070303;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 2px;
+    position: relative;
     
 
 }
@@ -102,11 +107,5 @@ div.two h2{
     text-decoration: none;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    
-}
-@media(min-width: 55em){
-    .column{
-        grid-auto-flow: column;
-    } 
     
 }
