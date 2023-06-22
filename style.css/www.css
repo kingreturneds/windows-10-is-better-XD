@@ -12,15 +12,19 @@ body{
    
     
 }
+.alls{
+    margin: 20px;
+    padding: 20px;
+}
 html{
     scroll-behavior: smooth;
 }
 div.one{ 
-    padding: 10px;
-    margin:px;
+    padding: 2%;
+    
     border: 1px solid black;
-    overflow: hidden;
-    width: 100%;
+    
+   
     background-color:rgb(127, 226, 14);
     /*animation: wuw 12s ease alternate;*/
     
@@ -44,7 +48,7 @@ div.one{
     color:#070303;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 2px;
-    position: relative;
+    
     
 
 }
@@ -59,8 +63,7 @@ div.one{
     margin: 23% ;
     margin-top: 50px;
     border:2px solid black;
-    height:310vh;
-    width:50%;
+    padding-bottom: 2%;
     box-shadow: 10px 15px rgb(18, 197, 33);
     background-color: #93eb9b;
    
